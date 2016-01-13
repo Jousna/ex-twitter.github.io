@@ -1,0 +1,155 @@
+html, body {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  background-color: #B40431;
+
+}
+
+header{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+header p:hover{
+  color:blue;
+}
+.container{
+  width: 100%;
+  height: 600px;
+  background-image: url("http://cdn.fastnfood.com/1/82/1372857272-twister-kfc-630.JPG");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+footer{
+  width: 100%;
+  height: 40px;
+}
+footer li{
+  list-style-type: none;
+  display: inline-block;
+  text-align:center;
+  list-style: none;
+
+}
+footer li:hover{
+  color: blue;
+}
+
+.Logo p{
+  color: white;
+  display: inline-block;
+  position: relative;
+}
+
+.Langue{
+  float: right;
+  margin-top: 10px;
+  z-index: 3;
+}
+
+.form{
+  width: 305px;
+  height: 300px;
+  float: right;
+  margin-right: 0px;
+  margin-left: 100%;
+
+
+}
+.Connexion{
+  margin-top: 20px;
+  width: 300px;
+  height: 117px;
+  background-color: white;
+  border-radius: 10px;
+  float: right;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.Inscription{
+  width: 302px;
+  height: 208px;
+  float: right;
+  background-color: white;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding-left: 10px;
+
+}
+h3{
+  margin-top: 0px;
+  font-size: 40px;
+  color: white;
+  padding-top: 0px;
+}
+.Paragraphe p{
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: sans-serif;
+
+}
+.Paragraphe{
+margin-top: 0px;
+width: 400px;
+height: 300px;
+float: left;
+position: absolute;
+}
+
+footer{
+  padding-top: 3px;
+  font-size: 13.8px;
+  position: fixed;
+}
+.radio{
+  width: 10px;
+  height: 10px;
+}
+.Connexion p{
+  font-size: 12px;
+  display: inline-block;
+}
+span{
+ font-size: 12px;
+  color: #A4A4A4;
+  display: inline-block;
+}
+
+.bouton1{
+  width: 70px;
+  background-color: #DF0174;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: inset 0 1px 0;
+  font-weight: bold;
+}
+
+.bouton2{
+  float: right;
+  margin-top: 15px;
+  width: 110px;
+  background-color: #DF0174;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+input{
+  margin-top: 7px;
+  width: 260px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 1px;
+  outline: 0;
+}
+.MDP{
+  width: 150px;
+}
