@@ -20,7 +20,7 @@ header p:hover{
   height: 600px;
   background-image: url("http://cdn.fastnfood.com/1/82/1372857272-twister-kfc-630.JPG");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 footer{
