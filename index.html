@@ -4,13 +4,16 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css" />
-  <title>Twister</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>Twitter</title>
 </head>
 
 <body>
   <header>
     <div class="Logo">
-      <p>Accueil</p>
+      <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABCCAMAAADzJHEyAAAAtFBMVEWUXgD///+TXACSWgCPVQCRWACPVgD9/PqOUwD///37+fWXYgCWYADp39CbaSP49fGfbxuXYgz07+bczbargkGbaBC0kmfz7eLAoGqbaRvHrYe4lV/Yxq/f0b7n3M3ayKunfDfJsY+6mm7p3MegcSqxjFejdznLsYKrhFKwik7Pup2rgkfHsJTq4MzOto66nHqkdiujdz7DpniuhTyyjEmdawDTvpyJSQDDpXPSv6e8mmCfcDPiNa93AAAD70lEQVRYhaWY6XqqMBCGScKOEQwgigJurUqrdWntcu7/vk4AbUFCgvo9T/8YfTtLZpKJBG4XOf1MHN93jl+uyViWbuXZ0RHJCEqQSpGtL6yVFrU4Mc9ITWP/viYNv+tI+hOUP8LAuPy3YNo5aQXSTiKDwymZmEqKVBXUvShbMoPo4Ogv5Ow43q1wGyI5yFCqSXFcgqPp2lJRxzUKpDFGcj9oQ2QAqZAz8yyZxkMNbVAgyUyRFDHTeO2xkRJE+YK6yhkZEjv0E2UlYrqLBuJZ6j7OMoIzZJyHHO03XGLQR3xilg/T7S8pUhvLRUi6CQ/53eEB4XBp28nXS9eyKdJM5fPHvW0zMQs4T7sfr0eDiggoIyWojEhjJH1+JCmNVpSEQRVJA7Jw2YVkfMsc3gXby3Z9KZa5UOeAWVDyxvc7t3OR7fR8E8Wo7JO8S4N6eQZP/HxnyJeirH/3ZWlJ8ca1+sSeAAl7o7j46qV6KkLQS+d2FTnhZ0eCv6VS1Lhy9X2aPu8tKQdVjJyBEhLgl7pXEA1Xs9Pm0rbxWuR43ygjjRQxbKDNYLhfzbZuli0zFGT8Cknrt+EHdPP2uv/269HAEziO+hXHsy7T7BfMxQfWYkmVDIU/4hM7hxKSnjymBpJ/DyGlv5aTIWdonWLb3T2EHJ5KSNo2kG4dQ+8RIly4JaSRtw10vd1vRO6DEhLE1iOwM3JllJGBqDLaIEegjNS+9YeRpTMm35ex89impEZ2N1Wk9vqomfAZVJG0FQmPAb7Q4BopPP9ERsJ5DQnSpvtOO6QP6kiQPtI35CULCZLnu+MJ5YCJBPOZpd5nKVoDNhKQ8dvE516mGqRjNjKgJ5e5We5uN7RqZAkZ9t+oVsM7jIwbkAm9ESDWSSmSMrIbkEB0+DcJXt12yhm/L9/61GxEgoF6BxFNrseGygw5ub0VQysCPKTJuBuJkKHNRQLy1LktnuipPi1dDc8kXNxyUqLnuEaszeOmO/OVtu7D7rhOZIz4JArpkMkaaWvEXsqaFFivBnYQR5Ho8pchQ9Y7RONDhCs+NPUlk9iADEZdIfFz2fDSwEKa26GwfcDPxnmTkZ6tL8wNRJbLgDGQhmnjg6+LL9GSx3kLkcwixpppkyAKj6hFO0LdQ+NAnCE3pyiO42icHtYfutqiBcPOU8JO9QUZTIefCCmyrLTq6FCZhIIHIBrL+etz2wMCyk4455oIzvdLnHqwxb0A6c5hXutlTGT2uvW97qi8bgGhCidTLAb+bSKN4G3+5MeKAKQLu0NMRC5XkRnVJqf1h6KrSg4u/pCi6vrH+xbb7XigXj0aibaD98nO8amc3fF9sHUJaPdueNZ/Bc9BQy1AVUcAAAAASUVORK5CYII=" width="20px" height="20px">
+      Accueil</p>
       <p>A propos</p>
       <p class="Langue">Langue francais
         <select></select>
@@ -23,11 +26,11 @@
         <input type="text" placeholder="Téléphone, mail ou identifiant"></input>
         </br>
         <input class="MDP" type="password" placeholder="Mot de Passe"></input>
-        <input class="bouton1" type="text" value="Connexion">
+        <input class="bouton1" type="submit" value="Connexion">
         </br>
-        <input class="radio" type="radio">
+        <input class="radio" type="checkbox">
         <span>Se souvenir de moi</span>
-        <p> Mot de passe oublié</p>
+        <p> Mot de passe oublié ?</p>
       </div>
       <div class="Inscription">
         <p>Nouveau sur Twitter ? Inscrivez-vous</p>
@@ -35,30 +38,32 @@
         <input type="text" placeholder="Adresse Mail"></input>
         <input type="password" placeholder=" Mot de Passe"></input>
         </br>
-        <input class="bouton2" type="text" value="Inscription">
+        <input class="bouton2" type="submit" value="Inscription">
 
       </div>
     </div>
     <div class="Paragraphe">
-      <h3>Bienvenue sur Twister</h3>
-      <p>Connectez-vous à vos amis — et d'autres personnes fascinantes. Recevez des recettes instantanées sur vos twistter. Et regardez les ingrédients, la préparation en temps réel, sous tous les angles.</p>
+      <h3>Bienvenue sur Twitter.</h3>
+      <p>Connectez-vous à vos amis — et d'autres personnes fascinantes. Recevez des mises à jour instantanées sur les choses qui vous intéressent. Et regardez les événements se dérouler, en temps réel, sous tous les angles.</p>
     </div>
   </div>
+
+  <footer>
+    <li>À propos</li>
+    <li>Aide</li>
+    <li>Blog</li>
+    <li>État du service</li>
+    <li>Offres d'emploi</li>
+    <li>Conditions Confidentialité</li>
+    <li>Cookies</li>
+    <li>Informations sur la publicité</li>
+    <li>Marque</li>
+    <li>Publicité</li>
+    <li>Professionnels</li>
+    <li>Médias</li>
+    <li> Développeurs</li>
+    <center><li>Annuaire </li>  <p> © 2016 Twitter</p><center>
+  </footer>
 </body>
-<footer>
-  <li>À propos</li>
-  <li>Aide</li>
-  <li>Blog</li>
-  <li>État du service</li>
-  <li>Offres d'emploi</li>
-  <li>Conditions Confidentialité</li>
-  <li>Cookies</li>
-  <li>Informations sur la publicité</li>
-  <li>Marque</li>
-  <li>Publicité</li>
-  <li>Professionnels</li>
-  <li>Médias</li>
-  <li> Développeurs</li>
-</footer>
 
 </html>

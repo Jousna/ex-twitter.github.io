@@ -1,155 +1,176 @@
 html, body {
   width: 100%;
-  height: auto;
+  height: 100%;
   margin: 0px;
-  background-color: #B40431;
-
-}
-
-header{
-  position: relative;
-  width: 100%;
-  height: 40px;
-  background-color: black;
-}
-header p:hover{
-  color:blue;
-}
-.container{
-  width: 100%;
-  height: 600px;
-  background-image: url("http://cdn.fastnfood.com/1/82/1372857272-twister-kfc-630.JPG");
+  background-image: url("http://img1.svstatic.com/wallpapers/7c2b5e3a3ba76646d6748081339b5ce1_large.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-footer{
+header {
+  position: relative;
   width: 100%;
-  height: 40px;
+  height: 50px;
+  background-color: white;
 }
-footer li{
+header p {
+  padding-bottom: 8.5px;
+}
+header p:hover:not(.Langue) {
+  color: black;
+  cursor: pointer;
+  border-bottom: solid #DBA901 7px;
+  padding-bottom: 8.2px;
+}
+header img {
+  padding-left: 10px;
+}
+footer li {
   list-style-type: none;
   display: inline-block;
-  text-align:center;
+  text-align: center;
   list-style: none;
-
 }
-footer li:hover{
-  color: blue;
+footer p {
+  text-align: center;
+  display: inline-block;
 }
-
-.Logo p{
-  color: white;
+footer li:hover {
+  color: #DBA901;
+  cursor: pointer;
+}
+.Logo p {
+  color: #DBA901;
   display: inline-block;
   position: relative;
-}
-
-.Langue{
-  float: right;
   margin-top: 10px;
+}
+.Langue {
+  float: right;
+  margin-top: 23px;
   z-index: 3;
 }
-
-.form{
+.Langue:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration:underline;
+}
+.form {
   width: 305px;
   height: 300px;
   float: right;
   margin-right: 0px;
   margin-left: 100%;
-
-
 }
-.Connexion{
-  margin-top: 20px;
+.Connexion {
+  margin-top: 50px;
   width: 300px;
   height: 117px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 6px;
   float: right;
-  margin-right: 20px;
+  margin-right: 40px;
   padding-left: 10px;
   padding-top: 5px;
 }
-
-.Inscription{
+.Connexion p:hover {
+  color: #DBA901;
+  cursor: pointer;
+}
+.Inscription {
   width: 302px;
   height: 208px;
   float: right;
   background-color: white;
   margin-top: 20px;
-  margin-right: 20px;
-  border-radius: 10px;
+  margin-right: 40px;
+  border-radius: 6px;
   padding-left: 10px;
-
 }
-h3{
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 0px;
-  font-size: 40px;
+  font-size: 34px;
   color: white;
-  padding-top: 0px;
+  padding-top: 30px;
 }
-.Paragraphe p{
-  color: black;
+.Paragraphe p {
+  padding-top: 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
   font-size: 20px;
   font-weight: 300;
   font-family: sans-serif;
-
 }
-.Paragraphe{
-margin-top: 0px;
-width: 400px;
-height: 300px;
-float: left;
-position: absolute;
+.Paragraphe {
+  margin-top: 0px;
+  width: 400px;
+  height: 300px;
+  float: left;
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 20px;
 }
-
-footer{
-  padding-top: 3px;
+footer {
+  margin-top: 55%;
   font-size: 13.8px;
   position: fixed;
+  margin-bottom: 30px;
+  padding-top: 0px;
 }
-.radio{
+.radio {
   width: 10px;
   height: 10px;
 }
-.Connexion p{
+.Connexion p {
   font-size: 12px;
   display: inline-block;
 }
-span{
- font-size: 12px;
+span {
+  font-size: 12px;
   color: #A4A4A4;
   display: inline-block;
 }
-
-.bouton1{
-  width: 70px;
-  background-color: #DF0174;
+.bouton1 {
+  width: 90px;
+  height: 30px;
+  background-color: #DBA901;
   border-radius: 5px;
   display: inline-block;
   box-shadow: inset 0 1px 0;
   font-weight: bold;
+  cursor: pointer;
+  margin-left: 20px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border: 1px solid #e1e8ed;
 }
-
-.bouton2{
+.bouton2 {
+  width: 140px;
+  height: 30px;
   float: right;
-  margin-top: 15px;
   width: 110px;
-  background-color: #DF0174;
-  border-radius: 5px;
+  background-color: #DBA901;
+  border-radius: 4px;
   text-align: center;
   font-weight: bold;
-
+  cursor: pointer;
+  margin-right: 10px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border: 1px solid #e1e8ed;
 }
-
-input{
+input {
   margin-top: 7px;
   width: 260px;
   height: 20px;
   display: inline-block;
   border-radius: 1px;
   outline: 0;
+  border: 1px solid #ccd6dd;
+  box-shadow: inset 0 1px 0 #eee, #fff 0 1px 0;
+  padding: 4px;
 }
-.MDP{
+.MDP {
   width: 150px;
+}
+select {
+  background-color: #DBA901;
 }
